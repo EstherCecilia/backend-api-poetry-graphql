@@ -34,17 +34,17 @@ This project provides a GraphQL API for managing a collection of poems and their
 
 3. **Configure the Database:**
 
-  Edit the .env file and provide your PostgreSQL database URL.
+     Edit the .env file and provide your PostgreSQL database URL.
 
 
 
 4. **Run Migrations:**
 
- ```
-  npx prisma migrate dev
-  docker compose up
-  npm start
- ```
+    ```
+     npx prisma migrate dev
+     docker compose up
+     npm start
+    ```
 
 
 
