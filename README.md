@@ -42,15 +42,11 @@ This project provides a GraphQL API for managing a collection of poems and their
 
  ```
   npx prisma migrate dev
-  Start the Server:
- ```
-
-  ```
+  docker compose up
   npm start
-  Access the GraphQL Playground:
  ```
 
 
 
-Open your web browser and navigate to http://localhost:4000 to access the GraphQL Playground. You can use this interface to send queries and mutations to the API.
+Open your web browser and navigate to http://localhost:9090 to access the GraphQL Playground. You can use this interface to send queries and mutations to the API.
 
